@@ -38,6 +38,10 @@
     letter-spacing: 0em;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
+    background: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .card-img {
