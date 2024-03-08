@@ -1,4 +1,5 @@
 import './App.css';
+import Carousel from './components/Carousel/Carousel';
 import Category from './components/Category/Category';
 // import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
@@ -11,6 +12,7 @@ function App() {
       {/* <Hero /> */}
       <Category />
       <TNews />
+      <Carousel />
     </div>
   );
 }

@@ -1,0 +1,80 @@
+.Carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1170px;
+    height: 618px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EBEEF3;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    max-height: 518px;
+}
+
+.carousel-btn {
+    position: relative;
+    width: 470px;
+    bottom: 15px;
+    right: 10px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+}
+
+.carousel-btn button {
+    margin: 10px 8px;
+    padding: 5px 10px;
+    background: #BAB8B8;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    color: white;
+}
+
+.arrow-btn {
+    font-family: Sequel Sans;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 425;
+    text-align: center;
+    border: none;
+    color: #2626269C;
+    margin: 8px 15px;
+}
+
+.page_no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_no>.page-btn {
+    border: none;
+    margin: 8px 15px;
+    background: none;
+    border: none;
+    color: #2626269C;
+    outline: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.page_no>.page-btn-active {
+    border-radius: 50%;
+    background: #262626;
+    color: #EBEEF3;
+    height: 35px;
+    width: 35px;
+}
