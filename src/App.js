@@ -4,6 +4,7 @@ import Category from './components/Category/Category';
 // import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import RecentNews from './components/RecentNews/RecentNews';
+import SportsArticles from './components/SportsArticles/SportsArticles';
 import TNews from './components/TNews/TNews';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <TNews />
       <Carousel />
       <RecentNews />
+      <SportsArticles />
     </div>
   );
 }

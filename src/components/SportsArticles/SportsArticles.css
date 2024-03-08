@@ -1,0 +1,128 @@
+.SportsArticles {
+    width: 100%;
+    max-width: 1170px;
+    height: 643px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.SportsArticles>h2 {
+    /* font-family: Sequel Sans; */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 415;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sports-news-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 370px;
+    height: 505px;
+    position: relative;
+}
+
+.sports-article-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #EBEEF3;
+
+    width: 76px;
+    height: 28px;
+    border-radius: 4px;
+    border: 0.75px solid #EBEEF3;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 20px 0px;
+}
+
+.user-details>img {
+    height: 44px;
+    width: 44px;
+}
+
+.user-details>span {
+    /* font-family: Roboto; */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #3E3232;
+    padding: 0px 15px;
+}
+
+.sports-news-card-date {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #26262699;
+    margin-bottom: 20px;
+}
+
+.sports-news-card h4 {
+    /* font-family: Sequel Sans; */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 415;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+.sports-news-card-desc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #696868;
+}
+
+.button-group {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group>button {
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background: #BAB8B8;
+}
