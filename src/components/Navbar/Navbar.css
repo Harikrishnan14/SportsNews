@@ -83,15 +83,14 @@
 
     .logo-div {
         margin-left: 30px;
-        margin-bottom: 25px;
     }
 
     .burger-menu-icon {
         margin-right: 30px;
-        margin-bottom: 25px;
     }
 
     .Navbar {
+        margin-bottom: 15px;
         height: 110px;
         width: 100%;
         justify-content: space-between;

@@ -1,7 +1,7 @@
 .SportsArticles {
-    width: 100%;
+    /* width: 100%; */
     max-width: 1170px;
-    height: 643px;
+    /* height: 643px; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
@@ -116,6 +116,7 @@
     width: 170px;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .button-group>button {
@@ -125,4 +126,46 @@
     border: none;
     color: white;
     background: #BAB8B8;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .SportsArticles {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .SportsArticles h2 {
+        margin-bottom: 20px;
+    }
+
+    .cards-container {
+        overflow-x: auto;
+        scroll-behavior: smooth;
+
+        overflow-y: hidden;
+    }
+
+    .sports-news-card {
+        flex-shrink: 0;
+        margin-right: 20px;
+        margin-bottom: 35px;
+        height: auto;
+    }
+
+    .sports-news-card:last-child {
+        margin-right: 0;
+    }
+
+    .button-group {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .sports-news-card>img,
+    .sports-news-card {
+        width: 335px;
+    }
 }
