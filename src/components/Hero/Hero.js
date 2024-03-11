@@ -13,7 +13,7 @@ const Hero = () => {
 
         <div className='hero-bg-text'>
           <img src={BasketBall} alt="" className='basketball-bg' />
-          <h2>Top <br />scorer to the final match</h2>
+          <h2>Top scorer to the final match</h2>
         </div>
 
         <div className='avatar-and-texts'>

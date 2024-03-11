@@ -60,8 +60,8 @@
 }
 
 .news-heading {
-    /* font-family: Sequel Sans; */
-    font-family: 'DM Sans', sans-serif;
+    font-family: Sequel Sans;
+    /* font-family: 'DM Sans', sans-serif; */
     font-size: 18px;
     font-weight: 415;
     line-height: 25px;
@@ -125,7 +125,6 @@
 .bottom-left-text {
     position: absolute;
     bottom: 20px;
-    left: 20px;
     padding: 29px 26px 29px 26px;
 }
 
@@ -147,8 +146,8 @@
 }
 
 .bottom-left-text>h3 {
-    /* font-family: Sequel Sans; */
-    font-family: DM Sans;
+    font-family: Sequel Sans;
+    /* font-family: DM Sans; */
     font-size: 36px;
     font-weight: 435;
     line-height: 42px;

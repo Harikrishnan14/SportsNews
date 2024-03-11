@@ -14,7 +14,7 @@ const Category = () => {
                     <div className="sqaure" style={{ marginBottom: "15px" }}>
                         <div className='card-text'>FOOTBALL</div>
                     </div>
-                    <div>
+                    <div style={{ height: "288px" }}>
                         <img src={Football} alt="" className='card-img' />
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const Category = () => {
                     <div>
                         <img src={Basketball} alt="" className='card-img' />
                     </div>
-                    <div className="sqaure">
+                    <div className="sqaure" style={{ height: "169px" }}>
                         <div className='card-text'>BASKET BALL</div>
                     </div>
                 </div>
@@ -30,15 +30,15 @@ const Category = () => {
                     <div className="sqaure">
                         <div className='card-text'>CAR SPORT</div>
                     </div>
-                    <div>
+                    <div style={{ height: "288px" }}>
                         <img src={SportsCar} alt="" className='card-img' />
                     </div>
                 </div>
                 <div className='cards'>
-                    <div>
+                    <div style={{ height: "286px", background: "#010101", borderRadius: "6px", display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                         <img src={TableTennis} alt="" className='card-img' />
                     </div>
-                    <div className="sqaure">
+                    <div className="sqaure" style={{ height: "118px" }}>
                         <div className='card-text'>TABLE TENNIS</div>
                     </div>
                 </div>
