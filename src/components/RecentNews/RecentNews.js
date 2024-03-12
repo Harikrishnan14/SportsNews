@@ -9,7 +9,7 @@ const RecentNews = () => {
             <div className='rec-news-left-side'>
                 <h3 className='rec-news-heading'>Recent News</h3>
                 <div className='rec-news-left-contents'>
-                    <div className='rec-news-left-card' style={{ marginRight: "15px" }}>
+                    <div className='rec-news-left-card'>
                         <div className="rec-news-left-card-overlay"></div>
                         <img src={KarateFighter} alt="" />
                         <div className="rec-news-left-side-card-text">
@@ -17,8 +17,8 @@ const RecentNews = () => {
                             <h3>Baku 2023 World Taekwondo Championships</h3>
                         </div>
                     </div>
-                    <div className='rec-news-left-card'>
-                        <div>
+                    <div className='rec-news-left-card responsive1'>
+                        <div className='rec-news-left-card-news-items'>
                             {LeftData.map((item) => {
                                 return <div className="rec-news-left-card-item" key={item.id}>
                                     <img src={item.img} alt="" />
@@ -35,6 +35,19 @@ const RecentNews = () => {
                                 arrow_right_alt
                             </span>
                         </button>
+                    </div>
+                    <div className='rec-news-left-card responsive'>
+                        <div className='rec-news-left-card-news-items'>
+                            {LeftData.map((item) => {
+                                return <div className="rec-news-left-card-item" key={item.id}>
+                                    <img src={item.img} alt="" />
+                                    <div className='rec-news-left-card-item-text'>
+                                        <span>{item.dateplace}</span>
+                                        <h4>{item.heading}</h4>
+                                    </div>
+                                </div>
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>
