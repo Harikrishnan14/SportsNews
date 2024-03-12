@@ -1,5 +1,5 @@
 .Category {
-    width: 100%;
+    /* width: 100%; */
     max-width: 1170px;
     height: 488px;
     margin-left: auto;
@@ -21,6 +21,8 @@
 .card-div {
     display: flex;
     justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 .sqaure {
@@ -56,4 +58,36 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 270px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .Category {
+        padding: 0px 20px 0px 20px;
+        margin-bottom: 50px;
+    }
+
+    .category-heading {
+        margin-bottom: 20px;
+    }
+
+    .card-div {
+        overflow-x: auto;
+        scroll-behavior: smooth;
+
+        overflow-y: hidden;
+    }
+
+    .cards {
+        flex-shrink: 0;
+        margin-right: 20px;
+        margin-bottom: 35px;
+        height: auto;
+    }
+
+    .cards:last-child {
+        margin-right: 0;
+    }
 }
