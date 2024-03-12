@@ -169,8 +169,10 @@
 .hero-card-text h6 {
     /* font-family: Sequel Sans; */
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 410;
+    /* font-size: 16px; */
+    font-size: 15px;
+    /* font-weight: 410; */
+    font-weight: 550;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;

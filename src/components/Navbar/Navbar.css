@@ -50,8 +50,11 @@
     color: #FFFFFF;
 }
 
-.burger-menu-icon {
+.burger-menu-div {
     display: none;
+}
+
+.burger-menu-icon {
     object-fit: cover;
     height: 3rem;
 }
@@ -101,7 +104,7 @@
         display: none;
     }
 
-    .burger-menu-icon {
+    .burger-menu-div {
         display: flex;
     }
 }
