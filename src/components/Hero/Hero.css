@@ -1,10 +1,11 @@
 .Hero {
-    width: 100%;
+    /* width: 100%; */
     /* max-width: 1383px; */
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
+    /* max-height: 618px; */
 }
 
 .hero-contents {
@@ -29,7 +30,7 @@
 .hero-bg-text h2 {
 
     width: 470px;
-    height: 300px;
+    /* height: 300px; */
 
     font-family: Sequel Sans;
     font-size: 80px;
@@ -67,7 +68,9 @@
     align-items: flex-start;
     justify-content: center;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
+    top: 405px;
+    right: 324px;
 }
 
 .hero-text-and-button>div {
@@ -141,7 +144,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    border-radius: 6px;
+    border-radius: 5px;
     width: 270px;
     height: 132px;
     background: linear-gradient(360deg, #F2F2F2 35.23%, rgba(242, 242, 242, 0) 100%);
@@ -177,4 +180,260 @@
     letter-spacing: 0em;
     text-align: left;
     color: #262626;
+}
+
+.hero-text-and-button-responsive,
+.responsive-hero-card {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .Hero {
+        margin: 0px 20px;
+        z-index: auto;
+        margin-bottom: 35px;
+    }
+
+    .hero-contents {
+        flex-direction: column;
+    }
+
+    .hero-right-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-right {
+        width: 100%;
+        margin-top: 40rem;
+    }
+
+    .today {
+        margin-bottom: 15px;
+    }
+
+    .hero-card {
+        margin-top: 0;
+    }
+
+    .hero-card:last-child {
+        margin-right: 0;
+    }
+
+    .hero-text-and-button>button {
+        display: none;
+    }
+
+    .hero-text-and-button-responsive {
+        display: flex;
+    }
+
+    .hero-bg-text {
+        position: absolute;
+        left: 55px;
+    }
+
+    .basketball-player {
+        left: 320px;
+    }
+
+    .hero-text-and-button>div {
+        width: 100%;
+    }
+
+    .hero-text-and-button {
+        bottom: 260px;
+        right: 0;
+        top: 500px;
+        padding: 0px 10px;
+        height: fit-content;
+    }
+
+    .responsive-hero-card {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+    .hero-right {
+        margin-top: 42rem;
+    }
+}
+
+@media screen and (max-width: 970px) {
+
+    .Hero {
+        margin-bottom: 25px;
+    }
+
+    .hero-bg-text {
+        position: absolute;
+        left: 30px;
+    }
+
+    .basketball-player {
+        left: 295px;
+        width: 450px;
+    }
+
+    .hero-right {
+        margin-top: 37rem;
+    }
+
+    .hero-bg-text h2 {
+        width: 400px;
+        font-size: 65px;
+        line-height: 60px;
+    }
+
+    .hero-bg-text {
+        left: 75px;
+    }
+
+    .basketball-bg {
+        height: 390px;
+    }
+
+    .hero-right-div {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .hero-card {
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    .hero-text-and-button {
+        top: 400px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .hero-bg-text {
+        left: 45px;
+    }
+
+    .basketball-bg {
+        height: 350px;
+    }
+
+    .hero-bg-text h2 {
+        width: 390px;
+        font-size: 60px;
+        line-height: 55px;
+        left: 45px;
+    }
+
+    .basketball-player {
+        left: 255px;
+    }
+
+    .hero-text-and-button {
+        top: 390px;
+    }
+
+    .hero-right {
+        margin-top: 38rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .basketball-bg {
+        display: none;
+    }
+
+    .hero-bg-text h2 {
+        width: 180px;
+        font-size: 28px;
+        line-height: 30px;
+        left: -15px;
+        top: 50px;
+    }
+
+    .basketball-player {
+        left: 100px;
+        width: 255px;
+    }
+
+    .hero-text-and-button {
+        top: 225px;
+    }
+
+    .hero-text-and-button>div {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .hero-right {
+        margin-top: 25rem;
+    }
+
+    .today {
+        width: 70px;
+        height: 25px;
+    }
+
+    .today p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .basketball-player {
+        left: 77px;
+        width: 230px;
+    }
+
+    .hero-bg-text h2 {
+        width: 155px;
+        font-size: 24px;
+        line-height: 25px;
+        left: -19px;
+        top: 45px;
+    }
+
+    .hero-text-and-button {
+        top: 200px;
+    }
+
+    .hero-text-and-button>div {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .hero-right {
+        margin-top: 22rem;
+    }
+
+    .today {
+        width: 60px;
+        height: 25px;
+    }
+
+    .today p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .basketball-player {
+        left: 60px;
+        width: 200px;
+    }
+
+    .hero-bg-text h2 {
+        width: 130px;
+        font-size: 20px;
+        line-height: 20px;
+        left: -28px;
+        top: 45px;
+    }
+
+    .hero-text-and-button {
+        top: 165px;
+    }
 }
