@@ -162,10 +162,46 @@
     }
 }
 
+@media screen and (max-width: 769px) {
+    .user-details {
+        margin: 15px 20px 15px 0px;
+    }
+
+    .sports-news-card-date {
+        margin: 10px 0px;
+    }
+
+    .sports-news-card h4 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    .sports-news-card-desc {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
 @media screen and (max-width: 380px) {
 
     .sports-news-card>img,
     .sports-news-card {
         width: 335px;
+    }
+
+    .sports-news-card h4 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .sports-news-card-desc {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .sports-news-card-date {
+        font-size: 12px;
+        margin-top: 0;
     }
 }

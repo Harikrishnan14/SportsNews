@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    padding-right: 15px;
 }
 
 .basketball-bg {
@@ -197,6 +198,7 @@
 
     .hero-contents {
         flex-direction: column;
+        padding-right: 0;
     }
 
     .hero-right-div {

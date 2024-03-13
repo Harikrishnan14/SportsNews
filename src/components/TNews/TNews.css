@@ -269,19 +269,21 @@
     }
 
     .news-details {
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .news-heading {
         font-size: 15px;
         margin: 0;
     }
 
-    .event-date {
-        display: none;
+    .news-heading {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .news-img {
@@ -311,6 +313,10 @@
     }
 
     .trending-news-heading {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .event-date {
+        font-size: 8px;
     }
 }

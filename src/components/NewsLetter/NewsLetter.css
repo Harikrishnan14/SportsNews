@@ -108,7 +108,7 @@
     justify-content: space-between;
 }
 
-.socials>img {
+.socials>a>img {
     background: #262626;
     object-fit: contain;
     background: #262626;

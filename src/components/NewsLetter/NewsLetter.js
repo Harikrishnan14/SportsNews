@@ -29,9 +29,15 @@ const NewsLetter = () => {
             </div>
             <div className='navigations'>
                 <div className="socials">
-                    <img src={Facebook} alt="" className='facebook' />
-                    <img src={Instragram} alt="" />
-                    <img src={Twitter} alt="" />
+                    <a href="https://www.facebook.com" target='__blank'>
+                        <img src={Facebook} alt="" className='facebook' />
+                    </a>
+                    <a href="https://www.instagram.com" target='__blank'>
+                        <img src={Instragram} alt="" />
+                    </a>
+                    <a href="https://twitter.com" target='__blank'>
+                        <img src={Twitter} alt="" />
+                    </a>
                 </div>
 
                 <div className="news-letter-nav-btn">
