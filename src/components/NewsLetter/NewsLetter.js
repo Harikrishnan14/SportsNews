@@ -22,7 +22,7 @@ const NewsLetter = () => {
                         </button>
                     </div>
                 </div>
-                <div>
+                <div className='news-letter-avatar-div'>
                     <img src={Rugby} alt="" className='news-letter-avatar' />
                     <img src={Vector} alt="" className='news-letter-avatar-bg' />
                 </div>

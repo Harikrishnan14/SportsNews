@@ -7,6 +7,7 @@ import NewsLetter from './components/NewsLetter/NewsLetter';
 import RecentNews from './components/RecentNews/RecentNews';
 import SportsArticles from './components/SportsArticles/SportsArticles';
 import TNews from './components/TNews/TNews';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <RecentNews />
       <SportsArticles />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .NewsLetter {
-    width: 100%;
+    /* width: 100%; */
     max-width: 1168px;
-    height: 510px;
+    /* height: 510px; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
@@ -110,8 +110,6 @@
 
 .socials>img {
     background: #262626;
-    width: 43.89px;
-    height: 44.77px;
     object-fit: contain;
     background: #262626;
     width: 25px;
@@ -151,4 +149,185 @@
     font-size: 24px;
     font-weight: 425;
     letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .NewsLetter {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .text-avatar-image-inner {
+        z-index: 5;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .NewsLetter {
+        margin-bottom: 20px;
+    }
+
+    .text-avatar-image-inner>h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .news-letter-input-group {
+        width: 450px;
+    }
+
+    .news-letter-avatar {
+        right: -30px;
+        width: 450px;
+    }
+
+    .news-letter-avatar-bg {
+        top: 60px;
+        right: 145px;
+        width: 270px
+    }
+
+    .text-avatar-image {
+        margin-bottom: 15px;
+    }
+
+    .news-letter-nav-btn {
+        margin-bottom: 30px;
+    }
+
+    .navigations {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .NewsLetter {
+        margin-bottom: 10px;
+    }
+
+    .text-avatar-image-inner>h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .news-letter-input-group {
+        width: 400px;
+    }
+
+    .news-letter-avatar-div {
+        display: none;
+    }
+
+    .text-avatar-image-inner {
+        margin: 0;
+        padding: 0px 20px;
+    }
+
+    .news-letter-input-group>input {
+        height: 56px;
+    }
+
+    .NewsLetter input[type='email']::placeholder {
+        font-size: 20px;
+    }
+
+    .news-letter-nav-btn {
+        display: none;
+    }
+
+    .text-avatar-image {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .NewsLetter {
+        margin-bottom: 0px;
+    }
+
+    .text-avatar-image-inner>h1 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .news-letter-input-group {
+        width: 350px;
+    }
+
+    .news-letter-input-group>input {
+        height: 44px;
+        padding: 0px 10px;
+    }
+
+    .news-letter-input-group>button {
+        height: 46px;
+    }
+
+    .NewsLetter input[type='email']::placeholder {
+        font-size: 18px;
+    }
+
+    .text-avatar-image {
+        height: 280px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .text-avatar-image-inner>h1 {
+        font-size: 33px;
+        line-height: 33px;
+        margin-bottom: 15px;
+    }
+
+    .news-letter-input-group {
+        width: 295px;
+    }
+
+    .news-letter-input-group>input {
+        height: 44px;
+    }
+
+    .NewsLetter input[type='email']::placeholder {
+        font-size: 16px;
+    }
+
+    .socials>img {
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+    }
+
+    .text-avatar-image {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .text-avatar-image-inner>h1 {
+        font-size: 27px;
+        line-height: 27px;
+        margin-bottom: 5px;
+    }
+
+    .news-letter-input-group {
+        width: 245px;
+    }
+
+    .news-letter-input-group>input {
+        height: 30px;
+    }
+
+    .NewsLetter input[type='email']::placeholder {
+        font-size: 12px;
+    }
+
+    .news-letter-input-group>button {
+        height: 31px;
+    }
 }
