@@ -1,11 +1,8 @@
 .Hero {
-    /* width: 100%; */
-    /* max-width: 1383px; */
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
-    /* max-height: 618px; */
 }
 
 .hero-contents {
@@ -31,7 +28,6 @@
 .hero-bg-text h2 {
 
     width: 470px;
-    /* height: 300px; */
 
     font-family: Sequel Sans;
     font-size: 80px;
@@ -57,7 +53,6 @@
 
 .basketball-player {
     width: 600px;
-    /* height: 580px; */
     position: absolute;
     top: 0px;
     left: 270px;
@@ -69,14 +64,12 @@
     align-items: flex-start;
     justify-content: center;
     position: absolute;
-    /* bottom: 0; */
     top: 405px;
     right: 324px;
 }
 
 .hero-text-and-button>div {
     width: 364px;
-    /* height: 75px; */
 
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
@@ -106,7 +99,6 @@
 
 .hero-right {
     width: 270px;
-    /* height: 554px; */
 }
 
 .today {
@@ -173,9 +165,7 @@
 .hero-card-text h6 {
     /* font-family: Sequel Sans; */
     font-family: 'DM Sans', sans-serif;
-    /* font-size: 16px; */
     font-size: 15px;
-    /* font-weight: 410; */
     font-weight: 550;
     line-height: 20px;
     letter-spacing: 0em;
